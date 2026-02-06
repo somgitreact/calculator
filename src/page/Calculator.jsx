@@ -12,11 +12,11 @@ const Calculator = () => {
 
 
 const math_cal =(prev, cur, sign)=> {
-   if(sign == '+') return prev + cur 
+     if(sign == '+') return prev + cur 
    if(sign == '-') return prev - cur 
    if(sign == '*') return prev * cur 
-   if(sign == '/') return prev / cur 
-}​​​​​​​;
+   if(sign == '/') return prev / cur
+}  
 
  const calculation = ()=>{
      let result= numrefArr.current[0];
