@@ -9,7 +9,7 @@ const Calculator = () => {
     const [pushnum, setPushnum] = useState('')
     const [signarr, setSignarr] = useState([])
 
-signarr === '' pushnum === []
+
 
 const math_cal =(prev, cur, sign)=> {
      if(sign == '+') return prev + cur 
@@ -52,7 +52,7 @@ return
     if(val=='='){
    // checkSign.current = val
    // setSignarr(prev=>([...prev, val]))
-   if(signarr === '' && pushnum.length === 0){ 
+   if(signarr === '' || pushnum.length === 0){ 
     setResult('Error')
     return
   }
